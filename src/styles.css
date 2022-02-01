@@ -3,28 +3,35 @@
   text-align: center;
 }
 .a {
+  position: absolute;
+  background-color: blue;
   width: 100px;
   height: 100px;
-  background-color: rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
-  background-blend-mode: ;
+  z-index: 4;
 }
+
 .b {
+  position: absolute;
+  background-color: red;
+  transform: translate(60px, 60px);
   width: 40px;
   height: 40px;
-  background-color: rgba(0, 0, 0, 0.2);
-  background-blend-mode: initial;
-  background-blend-mode: initial;
+  z-index: 8;
 }
+
 .c {
+  position: absolute;
+  background-color: green;
   width: 40px;
   height: 40px;
-  background-color: rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
+  z-index: 6;
 }
 
 .d {
+  position: absolute;
+  background-color: black;
   width: 40px;
   height: 40px;
-  background-color: rgba(0, 0, 0, 0.4);
+  transform: translate(80px, 80px);
+  z-index: 7;
 }
